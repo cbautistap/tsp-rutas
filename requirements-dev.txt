@@ -1,2 +1,11 @@
 jupyter
 ipython
+toml
+flake8
+flake8-docstrings
+black
+isort
+pytest
+tox
+sphinx
+sphinx_rtd_theme
