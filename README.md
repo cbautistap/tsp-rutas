@@ -1,4 +1,4 @@
-# Traveller salesperson Problem
+# Traveller Salesperson Problem
 
 ## Proyecto de clase Programación para Ciencia de Datos
 
