@@ -1,5 +1,3 @@
-# tsp-rutas
-
 # Traveller salesperson Problem
 
 ## Proyecto de clase Programación para Ciencia de Datos
