@@ -1,7 +1,17 @@
-# Traveller Salesperson Problem
+# Producto de datos para ruteo
 
-## Proyecto de clase Programación para Ciencia de Datos
+*Traveller Salesperson Problem*
 
-El objetivo es crear un producto de datos, desde la concepción y diseño de organización (orientado a objetos) hasta el 'delivery' al cliente con un Dockerfile
+## Requerimientos v1.0
 
-Se crea el cascarón (template) de lo que debe incluir un producto de datos
+Recibe una lista de ciudades con al menos sus coordenadas y regresa un
+circuito/tour (lista ordenada de ciudades) con su costo
+
+Cuenta con una interfaz en línea de comandos la cual además de la lista
+puede recibir argumentos como el algoritmo a utilizar y sus parámetros.
+
+/tendremos un algoritmo en python de la siguiente forma:/
+
+```shell
+calcular-ruta lugares  --algoritmo aco --parametros alpha=1
+```
