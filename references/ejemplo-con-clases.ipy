@@ -1,0 +1,117 @@
+# coding: utf-8
+class Ant:
+    #atributos
+    def mover(self):
+        pass
+        
+a = Ant()
+type(a)
+a.mover()
+def sumar(x,y)
+def sumar(x,y):
+    print(x+y)
+    
+sumar(1,2)
+x =1
+y = 2
+def sumar_procedural():
+    print(x+y)
+    
+sumar_procedural()
+class Ant:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    def sumar(self):
+        print(self.x + self.y)
+        
+        
+b = Ant(10,10)
+b.sumar()
+b1 = Ant(1,0)
+b1.sumar()
+# Por lo tanto, para nuetro ejempo tsp
+# tendríamos como objetos varios. en primer lugar pensamos en los Lugares:
+# y creamos la clase lugar:
+class lugar:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+        
+lugares = [ lugar(1,0), lugar(3,4) ]
+lugare
+lugares
+for lugar in lugares:
+    print(lugar.x)
+    
+# Lo anterior me dio las coordenadas x
+# modificamos ahora la clase, para que nos regrese el string que nos describe la ciudad:
+class lugar:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    def __str__(self):
+        return f"x: {self.x}, y: {self.y}"
+        
+        
+# el método str se va a invocar cuando imprimo:
+lugares = [ lugar(1,0), lugar(3,4) ]
+lugares [0]
+print(lugares[0])
+# ¿qué más podría tener? Ruta es una clase. Es un conjunto de lugares en cierto orden:
+class Ruta:
+    pass
+    
+# también tenemos la clase algoritmo, que debe tener un método que se llame run, cuyos atributos serían los hiperparámetros
+class algoritmo:
+    def __init__(**hyperparameters):
+        pass
+    def run(self):
+        pass
+        
+# Vemos que método, realmente son FUNCIONES DENTRO DE LA CLASE, y la podemos invocar
+class algoritmo:
+    def __init__(self, **hyperparameters):
+        pass
+    def run(self):
+        pass
+        
+        
+# hubo un error en algoritmo, recordamos que init siempre tiene que tener self
+# Debemos tener algo que ejecute. Sería la clase opitmizador
+class optimizador:
+    pass
+    
+# Optmizador es en realidad una función (no necesarimente un objeto)
+# Recordamos que al algoritmo original de hormiga tenemos que pasarle la lista de todas las ciudades...
+# ... por lo tanto debemos tener el estado actual de las cosas. Es decir la lista de todas las ciudades (se encarga de generarlo)
+class mundo:
+    pass
+    
+# Ahora generamos el algoritmo greedy. Es una clase de tipo algoritmo:
+class greedy(algoritmo):
+    pass
+    
+# como es clase de tipo algoritmo no se le pone nada.
+# ESTO SERÍAN LAS COSAS QUE DEBERÍAMOS DE TENER EN NUESTRO PRODUCTO DE DATOS POR LO MENOS. ESTOS SON LOS OBJETOS. Obviamente faltan funciones para leer archivos, etc
+# los pasos de diseño, entonces serían: 1) sacar sustantivos y definir como clases, y 2) asigno responsabilidades (qué clase hace cada cosa), en un proceso iterativo
+# Obs. greedy no tiene método pero si le pregunto el tipo, me dice que es tipo greedy, pero en realidad es de tipo algoritmo
+g = greedy()
+type(g)
+# De esta manera estoy forzando que todos tengan la misma interfaz: greedy es de tipo algoritmo entonces tiene que tener un algoritmo run
+class ACO(algoritmo):
+    pass
+    
+# algoritmo es una clase y greedy sería una subclase
+# colonia de hormiga esta formada de hormigas. (usare ants en vez de Ant para no confundir con el primer ejemplo)
+class ants:
+    pass
+    
+ %save -r /home/vagrant/tsp-rutas/references/ejemplo-con-clases 1-99999
+import tsp
+from tsp.tsp impor mundo
+from tsp.tsp import mundo
+m = mundo()
+type(m)
+# Ojo, esto se puede 'aplanar' agregando el import en el archivo __init__.py y especifico que cosas quiero aplanar (all o algo así). Ponerle un init también
+ %save -r /home/vagrant/tsp-rutas/references/ejemplo-con-clases 1-99999
